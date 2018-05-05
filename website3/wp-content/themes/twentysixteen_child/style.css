@@ -1,0 +1,30 @@
+/*
+Theme Name:   Twenty sixteen child
+Theme URI:    https://wordpress.org/themes/twentysixteen/
+Author:       Kruti Pandya
+Author URI:   https://websiteworld.co.in
+Description:  Twenty sixteen child Theme for a small business site, broshure, porfolio, blog
+Template:     twentysixteen
+Version:      1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twenty-sixteen-child
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+*/
+
+
+body.custom-background { background-color:#000!important; /* #ffcc00; */}
+.site-branding .site-title a{ color:green;}
+.site-description { color:#cccccc; font-family:verdana; font-weight:normal;}
+.site-description i{ color:red;}
+.site-description strong{ color:purple;}
+
+.widget {border-top:4px solid purple;}
+.site {margin:0px;}
+
+.entry-title,
+.main-navigation,
+.widget .widget-title,
+body, button, input, select, textarea {
+	font-family:"Arial";
+}
